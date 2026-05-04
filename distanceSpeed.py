@@ -1,3 +1,5 @@
+# Finding speed by distance in meters and time in seconds and speed in kmph
+
 distance = int(input())
 time = int(input())
 
