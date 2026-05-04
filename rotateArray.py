@@ -1,0 +1,8 @@
+arr = list(map(int,input().split(',')))
+k = int(input())
+
+k = k % len(arr)
+
+rotated = arr[k:] + arr[:k]
+
+print(rotated)
